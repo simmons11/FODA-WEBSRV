@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(to right, #3d5b91, #2a5298); /* Fondo con gradiente */
+    font-family: Arial, sans-serif;
+    color: #fff; 
+}
+
+.container {
+    background: rgba(3, 4, 4, 0.9); 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.navbar {
+    margin-bottom: 20px;
+    background-color: #343a40;
+}
+
+.navbar a.nav-link {
+    color: #ffffff;
+    font-size: 1.1rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.navbar a.nav-link:hover {
+    color: #2a5298; 
+    transform: scale(1.1); /* Efecto de zoom */
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+/* parte integrantes */
+.integrante-card {
+    padding: 20px; 
+    transition: transform 0.3s, box-shadow 0.3s; /* Animación */
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    background: #ffffff; 
+    max-width: 220px; 
+    margin: 20px auto; 
+}
+
+.integrante-card:hover {
+    transform: scale(1.1); /* Efecto de zoom */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+}
+
+/* Estilo para imágenes */
+.image-container {
+    width: 200px; 
+    height: 200px; 
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 12px; /* tipo de borde*/
+    border: 3px solid #000; /* Cambio de color del borde*/
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* imagen */
+}
+
+h5 {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.3rem; 
+    color: #333; 
+    text-align: center;
+}
+
+p {
+    font-size: 1rem; /* Este es el tamaño de descripcion*/
+    color: #555; /* Color de descripción */
+    text-align: center;
+    margin: 0;
+}
+
