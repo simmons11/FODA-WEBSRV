@@ -23,7 +23,7 @@ body {
 }
 
 .navbar a.nav-link:hover {
-    color: #2a5298; 
+    color: #4378d3; 
     transform: scale(1.1); /* Efecto de zoom */
 }
 
